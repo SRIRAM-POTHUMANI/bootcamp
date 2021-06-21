@@ -1,0 +1,43 @@
+var resume = {
+    "basics": {
+      "name": "SRIRAM POTHUMANI",
+      "email": "rpsram98@gmail.com",
+      "phone": "+91 8838250084",
+      "degree": "BSc Information Technology",
+      "address": {
+        "area": "4 Anna Street, Nehru Nagar",
+        "postalCode": "625003",
+        "city": "Madurai",
+        "state": "Tamilnadu",
+        "country": "India" }
+      },
+    "Experience": [
+      {
+        "company": "Sakthi Solutions",
+        "position": "Business Developer",
+        "website": "www.sakthisolutions.in",
+        "startDate": "2019-07-01",
+        "endDate": "2021-06-01",
+        "summary": "To find the product need for a customer and selling our software product to them and handling the installation and support for a while",
+       }
+    ],
+    "education": [
+      {
+        "institution": "Mannar Thirumalai Naicker College of Arts & Science(Autonomous)",
+        "area": "Madurai",
+        "Course": "BSc Information Technology",
+        "started": "2015-07-01",
+        "ended": "2018-05-01",
+        "gpa": "62",
+      }
+    ],
+     "languages": [
+      {
+        "language": ["Tami","English","Hindi"],
+        "fluency": ["Tamil","English"]
+      }
+    ],
+  }
+ for( e in resume) {
+    console.log(resume[e]);
+  };
