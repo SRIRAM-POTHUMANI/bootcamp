@@ -1,0 +1,10 @@
+class uberfare {
+   constructor(kms,time) {
+     this.rate ="The Uber Fare is " + (kms * kval + time * tval);
+   }
+ }
+ var kval=10;
+ var tval=5;
+ var ub = new uberfare(5,5);
+ console.log(ub);
+console.log(ub.rate); 
